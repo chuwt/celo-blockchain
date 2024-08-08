@@ -73,7 +73,7 @@ func GetBlockGasLimitOrDefault(vmRunner vm.EVMRunner) uint64 {
 	val, err := GetBlockGasLimit(vmRunner)
 	if err != nil {
 		logError("blockGasLimit", err)
-		return params.DefaultBlockGasLimit
+		return params.DefaultGasLimit
 	}
 	return val
 }

@@ -6,8 +6,7 @@ import "github.com/celo-org/celo-blockchain/common/math"
 var Fixidity1 = math.BigPow(10, 24)
 
 const (
-	DefaultGasLimit      uint64 = 20000000 // Gas limit of the blocks before BlockchainParams contract is loaded.
-	DefaultBlockGasLimit uint64 = 50000000 // Gas limit of the blocks before BlockchainParams contract is loaded.
+	DefaultGasLimit uint64 = 20000000 // Gas limit of the blocks before BlockchainParams contract is loaded.
 )
 
 // Celo precompiled contracts
