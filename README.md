@@ -1,5 +1,10 @@
 ## Tracers
 
+## version
+```
+v1.8.4
+```
+
 ## build
 ```
 make geth
